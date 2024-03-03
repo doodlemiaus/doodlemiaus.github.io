@@ -15,7 +15,7 @@
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color:                    #8FB7D4;
+  --cd-primary-color:                    #FD6A02;
   --cd-primary-text-color:               #fff;
 
   /* ============================================================= */
@@ -30,9 +30,9 @@
   --cd-body-background-color:            #e9e9e9;
   --cd-content-background-color:         #ffffff;
   --cd-faded-background-color:           #e9e9e9;
-
+  
   /* Background Extras */
-  --cd-body-background-image:              url();
+  --cd-body-background-image:              url(https://images.unsplash.com/photo-1520302630591-fd1c66edc19d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 
   /* ============================================================= */
   /* Text
@@ -57,13 +57,13 @@
   --cd-navbar-text-color:                var(--cd-content-background-color);
   --cd-navbar-link-color:                var(--cd-navbar-text-color);
   --cd-navbar-link-color-hover:          var(--cd-primary-color);
-  --cd-navbar-font-family:               var(--cd-header-font-family);
+  --cd-navbar-font-family:               'Love Ya Like A Sister', cursive;
   
   /* ============================================================= */
   /* Main Fonts
   ================================================================ */
   --cd-body-font-family:                 'Montserrat', sans-serif;
-  --cd-header-font-family:               'Comfortaa', sans-serif;
+  --cd-header-font-family:               'Love Ya Like A Sister', cursive;
 
 
   /* ============================================================= */
@@ -210,7 +210,7 @@ body {
 
   /* Global Background */
   background-color: var(--cd-body-background-color);
-  background-image: var(--cd-background-body-image);
+  background-image: var(--cd-body-background-image);
   background-position: center;
   background-size: cover;
 
