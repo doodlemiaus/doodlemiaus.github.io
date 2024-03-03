@@ -12,8 +12,8 @@ const charadex = (options) => {
   /* Sifting Through Options
   ======================================================================= */
   const charadexInfo = {
-    sheetID: userOptions.sheetID ? userOptions.sheetID.includes('/d/') ? userOptions.sheetID.split('/d/')[1].split('/edit')[0] : userOptions.sheetID : "1l_F95Zhyj5OPQ0zs-54pqacO6bVDiH4rlh16VhPNFUc",
-    sheetPage: userOptions.sheetPage ? userOptions.sheetPage : "Public Masterlist",
+    sheetID: userOptions.sheetID ? userOptions.sheetID.includes('/d/') ? userOptions.sheetID.split('/d/')[1].split('/edit')[0] : userOptions.sheetID : "",
+    sheetPage: userOptions.sheetPage ? userOptions.sheetPage : "",
     itemAmount: userOptions.itemAmount ? userOptions.itemAmount : 12,
     itemOrder: userOptions.itemOrder ? userOptions.itemOrder : "desc",
     searchParams: userOptions.searchParams ? userOptions.searchParams : ['id', 'owner', 'artist', 'designer'],
